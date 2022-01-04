@@ -8,9 +8,11 @@ class Topbar extends React.Component {
   }
   render() { 
     return ( 
-      <div className="Topbar">
-        <h1>Topbar</h1>
-      </div>
+      <header>
+        <div className="Topbar">
+          <h1>Topbar</h1>
+        </div>
+      </header>
      );
   }
 }
